@@ -1,9 +1,10 @@
 # Stick to libressl 2.6
 # https://github.com/PowerDNS/pdns/issues/6943
 FROM alpine:3.7
-MAINTAINER Christoph Wiechert <wio@psitrax.de>
+#fork from https://github.com/psi-4ward/docker-powerdns
+MAINTAINER Chanchai Junlouchai <neverlock@gmail.com>
 
-ENV REFRESHED_AT="2019-03-18" \
+ENV REFRESHED_AT="2019-04-27" \
     POWERDNS_VERSION=4.1.7 \
     MYSQL_AUTOCONF=true \
     MYSQL_HOST="mysql" \
