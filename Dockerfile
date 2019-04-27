@@ -5,7 +5,7 @@ FROM alpine:3.7
 MAINTAINER Chanchai Junlouchai <neverlock@gmail.com>
 
 ENV REFRESHED_AT="2019-04-27" \
-    POWERDNS_VERSION=4.1.7 \
+    POWERDNS_VERSION=4.1.8 \
     MYSQL_AUTOCONF=true \
     MYSQL_HOST="mysql" \
     MYSQL_PORT="3306" \
