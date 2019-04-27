@@ -14,7 +14,7 @@
 
 ## Supported tags
 
-* Exact: i.e. `4.1.7`: PowerDNS Version 4.1.7
+* Exact: i.e. `4.1.8`: PowerDNS Version 4.1.8
 * `4.0`: PowerDNS Version 4.0.x, latest image build
 * `4`: PowerDNS Version 4.x.x, latest image build
 
@@ -64,9 +64,11 @@ See `docker run --rm psitrax/powerdns --help`
 
 ## Maintainer
 
-* Christoph Wiechert <wio@psitrax.de>
+* Chanchai Junloouchai <neverlock@gmail.com>
 
 ### Credits
 
+* Fork from https://github.com/psi-4ward/docker-powerdns
+* Christoph Wiechert <wio@psitrax.de>
 * Mathias Kaufmann <me@stei.gr>: Reduced image size
 
